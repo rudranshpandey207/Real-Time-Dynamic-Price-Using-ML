@@ -1,0 +1,19 @@
+# Python Virtual Environment
+venv/
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# ML Models (these are large binary files)
+*.pkl
+*.h5
+
+# VS Code specific
+.vscode/
+
+# Environment variables
+*.env
+
+# Jupyter Notebooks
+*.ipynb
