@@ -29,7 +29,7 @@ model_original, model_syn = load_models()
 with st.sidebar:
     st.header("📊 Model Information")
     st.write("**Synthetic Model (Manual):**")
-    st.write("- R² Score: 0.9884")
+    st.write("- R² Score: 0.9384")
     st.write("- MAE: ₹87")
     if model_original:
         st.write("\n**Original Model (Live):**")
